@@ -3,7 +3,6 @@ import TaskInfo from "../Others/TaskInfo";
 import Tasks from "../TaskList/Tasks";
 
 const EmployeeDashboard = ({ data }) => {
-  console.log(data);
 
   return (
     <div className="w-screen h-screen p-10 bg-zinc-800">

@@ -1,9 +1,7 @@
-
 const Header = ({ data }) => {
-
   const handleLogOut = () => {
     localStorage.setItem("loggedInUser", "");
-    window.location.href = "/login"
+    window.location.href = "/login";
   };
   return (
     <div className="w-full flex justify-between items-center px-10">
